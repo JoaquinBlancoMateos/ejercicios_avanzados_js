@@ -46,6 +46,6 @@ function getUniqueCategories(movieList, categoriesProperty = 'categories') {
   return uniqueCategories;
 }
 
-console.log("--- OPCIÓN 1 (Bucle for...of con .includes()) ---");
+console.log("--- Resultado: categorías únicas ---");
 const categories = getUniqueCategories(movies);
 console.log(categories);

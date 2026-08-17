@@ -34,7 +34,7 @@ function swap(array, index1, index2) {
   return updatedArray;
 }
 
-console.log("--- OPCIÓN 1 (Inmutable con Desestructuración ES6) ---");
+console.log("--- Intercambio inmutable con desestructuración ---");
 
 console.log("Array original:", fantasticFour);
 

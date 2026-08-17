@@ -12,7 +12,7 @@ const mainCharacters = [
   "Obi-Wan",
 ];
 
-// OPCIÓN 1: Implementación con bucle for tradicional (Abstraída e insensible a mayúsculas)
+// Implementación con bucle for tradicional y comparación insensible a mayúsculas
 function findArrayIndex(array, text) {
   // Validación de seguridad para casos límite (edge cases)
   if (!Array.isArray(array) || typeof text !== 'string') {
@@ -31,7 +31,7 @@ function findArrayIndex(array, text) {
   return -1; // Convención estándar en JS cuando un elemento no existe
 }
 
-console.log("--- OPCIÓN 1 (Bucle imperativo tradicional) ---");
+console.log("--- Búsqueda del índice ---");
 
 // Pruebas y comprobaciones:
 console.log(`Índice de 'Rey':`, findArrayIndex(mainCharacters, "Rey"));            // 4
@@ -68,7 +68,7 @@ function removeItem(array, text) {
   return updatedArray;
 }
 
-console.log("--- OPCIÓN 1 (Inmutable: Preserva el array original) ---");
+console.log("--- Eliminación sin modificar el array original ---");
 
 // Pruebas y comprobaciones:
 const listWithoutRey = removeItem(mainCharacters, "Rey");

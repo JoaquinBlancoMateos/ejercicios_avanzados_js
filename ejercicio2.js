@@ -72,6 +72,6 @@ function calculateAverageSoundVolume(userList, soundsProperty = 'favoritesSounds
   return Number(average.toFixed(2));
 }
 
-console.log("--- OPCIÓN 1 (Combinación for...of y for...in) ---");
+console.log("--- Resultado: media del volumen ---");
 const averageVolume = calculateAverageSoundVolume(users);
 console.log(`Media del volumen de todos los sonidos favoritos: ${averageVolume}`);

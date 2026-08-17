@@ -64,6 +64,6 @@ function countFavoriteSounds(userList, soundsProperty = 'favoritesSounds') {
   return soundCount;
 }
 
-console.log("--- OPCIÓN 1 (Combinación for...of y for...in) ---");
+console.log("--- Resultado: conteo de sonidos favoritos ---");
 const soundFrequencies = countFavoriteSounds(users);
 console.log(soundFrequencies);

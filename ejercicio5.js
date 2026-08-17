@@ -1,7 +1,7 @@
 // Crea una función llamada rollDice() que reciba como parámetro el número de caras
 // del dado y simule una tirada de dado devolviendo un número entero aleatorio entre 1 y el número de caras.
 
-// OPCIÓN 1: Función imperativa abstraída con validación y valor por defecto
+// Función imperativa con validación y valor por defecto
 function rollDice(numFaces = 6) {
   // Validación de seguridad para la abstracción (Edge cases)
   // El número de caras debe ser un número entero mayor o igual a 1
@@ -19,7 +19,7 @@ function rollDice(numFaces = 6) {
   return result;
 }
 
-console.log("--- OPCIÓN 1 (Simulación de tiradas de dado) ---");
+console.log("--- Simulación de tiradas de dado ---");
 
 // Pruebas con distintos tipos de dados:
 console.log("Dado estándar (D6):", rollDice());          // Resultado entre 1 y 6
